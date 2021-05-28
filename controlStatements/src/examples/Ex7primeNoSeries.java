@@ -7,10 +7,10 @@ public class Ex7primeNoSeries
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter number:");
 		int mnum=sc.nextInt();
-		int count=0;
+		//int count=0;
 		for(int j=1;j<=mnum;j++)
 		{
-			//int count=0;
+			int count=0;
 			for(int i=1;i<=j;i++) 
 			{
 				if(j%i==0) 
@@ -25,9 +25,9 @@ public class Ex7primeNoSeries
 			}
 
 			//else { System.out.println("not a prime no"+j); }
-
+      
 		}
-
+	      System.out.println("This is our Ex7primeNoSeries");
 	}
 }
 
