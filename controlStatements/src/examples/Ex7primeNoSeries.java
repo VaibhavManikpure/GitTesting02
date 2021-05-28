@@ -27,7 +27,7 @@ public class Ex7primeNoSeries
 			//else { System.out.println("not a prime no"+j); }
       
 		}
-	      System.out.println("This is our Ex7primeNoSeries");
+	      System.out.println("This is our Ex7primeNoSeries:");
 	}
 }
 
